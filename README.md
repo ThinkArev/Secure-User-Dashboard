@@ -26,21 +26,40 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+-----------------------------------------------------------------------------------------------------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project structure
 
-### `npm run eject`
+ src
+├── interfaces
+│   └── index.ts
+│     
+├── pages
+│   ├── Dashboard.tsx
+│   ├── SignIn.tsx
+│   └── SignUp.tsx
+│
+├── store
+│   ├── userSlice.ts
+│   └── index.ts
+│
+├── services
+│   └── api.ts
+│
+├── components
+│   └── ProtectedRoute.tsx
+│
+├── middleware
+│   └── authMiddleware.tsx
+│
+├── App.tsx
+│
+└── index.tsx
+-----------------------------------------------------------------------------------------------------------------------------------
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Images UI
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/ThinkArev/secure-user-dashboard/assets/32445101/9eda384a-47c1-4322-81cb-9d5b97cc16f9)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://github.com/ThinkArev/secure-user-dashboard/assets/32445101/a904e1ff-573d-4d87-91a9-3d90b1ff6388)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
