@@ -11,7 +11,6 @@ const SignUp: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const navigate = useNavigate();
 
-
   useEffect(() => {
     if (loading) {
       setError("")

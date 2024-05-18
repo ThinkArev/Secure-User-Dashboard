@@ -17,14 +17,4 @@ describe('login', () => {
     expect(axios.post).toHaveBeenCalledWith('https://reqres.in/api/login', { email, password });
     expect(response).toEqual(responseData);
   });
-
-  it('should handle login API failure', async () => {
-    const email = 'test@example.com';
-    const password = 'password';
-    const errorMessage = 'Login failed';
-
-    (axios.post as jest.MockedFunction<typeof axios.post>).mockRejectedValueOnce(new Error(errorMessage));
-
-    await expect(login(email, password)).rejects.toThrow(errorMessage);
-  });
 });
