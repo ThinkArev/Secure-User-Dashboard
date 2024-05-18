@@ -29,32 +29,8 @@ Your app is ready to be deployed!
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Project structure
+![image](https://github.com/ThinkArev/secure-user-dashboard/assets/32445101/f7a7adb3-1a05-4150-a8f8-4e7a17b7499d)
 
- src
-├── interfaces
-│   └── index.ts
-│     
-├── pages
-│   ├── Dashboard.tsx
-│   ├── SignIn.tsx
-│   └── SignUp.tsx
-│
-├── store
-│   ├── userSlice.ts
-│   └── index.ts
-│
-├── services
-│   └── api.ts
-│
-├── components
-│   └── ProtectedRoute.tsx
-│
-├── middleware
-│   └── authMiddleware.tsx
-│
-├── App.tsx
-│
-└── index.tsx
 -----------------------------------------------------------------------------------------------------------------------------------
 
 Images UI
